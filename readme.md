@@ -1,4 +1,4 @@
-### Campgrounds improved version. 
+### MEAN STACK - Campgrounds proj. improved version. 
 
 ##Initial Setup
 * Add Landing Page
