@@ -145,3 +145,16 @@ SHOW    /campgrounds/:id  GET
 
 NEW     campgrounds/:id/comments/new    GET
 CREATE  campgrounds/:id/comments      POST
+
+
+
+
+## Usage
+
+## Installation
+
+Campgrounds requires Node.js v4+ to run.
+
+$ npm install
+$ npm start
+$ node app.js
