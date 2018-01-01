@@ -55,13 +55,6 @@ app.use(function( req, res, next){
 
 app.locals.moment = require("moment");
 
-/*
-
-You were using your routes before body-parser configuration line 
-(which enables us to recieve data from forms to our backend), 
-so the username value couldn't get through to the register/login route.
-
-*/
 // tell the server to use bodyParser and pass in an object on it
 app.use(bodyParser.urlencoded({extended:true})) // for the use of body parser
 
