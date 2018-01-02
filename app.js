@@ -31,7 +31,7 @@ const seedDB = require("./seeds");
 
 // PASSPORT CONFIG
 app.use(require("express-session")({
-    secret: "I am literally just one idea away from making billions, keep searching",
+    secret: "keep searching",
     resave: false,
     saveUninitialized: false
 }));
